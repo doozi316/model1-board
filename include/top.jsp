@@ -51,14 +51,14 @@ if( id==null ){//세션 변수가 없을 때
 	%>
 		<td class="topmenu"><a href="../member/memberWrite.jsp">회원가입</a></td>
 		<td class="topmenu">
-	<a href="#" onclick="fn_login()">로그인</a>
+	<a href="../member/loginWrite.jsp" onclick="fn_login()">로그인</a>
 	</td>
 <%	
 }else{
 %>
 <td class="topmenu"><a href="../member/memberDetail.jsp">회원정보</a></td>
 		<td class="topmenu">
-	<a href="/member/logout.jsp">로그아웃</a>
+	<a href="../member/logout.jsp">로그아웃</a>
 	
 <%
 }
